@@ -1,7 +1,3 @@
-.centertext
-{
-    text-align: center;
-}
 .maincontainer
 {
     border: solid transparent 3px;
@@ -21,10 +17,6 @@
     width: auto;
     margin: 10px;
     padding: 10px;
-}
-body
-{
-    background-color:rgb(211, 241, 255);;
 }
 .containerthumail {
     position: relative;

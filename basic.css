@@ -1,3 +1,7 @@
+body
+{
+    background-color:rgb(211, 241, 255);;
+}
 #myImgLogo {
     align-self: center;
     top:100%;
@@ -130,4 +134,7 @@
   }
   * {box-sizing: border-box;}
   body {font-family: Arial, Helvetica, sans-serif}
-  
+.centertext
+{
+    text-align: center;
+}

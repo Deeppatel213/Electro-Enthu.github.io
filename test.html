@@ -1,62 +1,32 @@
+<!-- The text field -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.containerthumail {
-  position: relative;
-  width: 50%;
-}.imagethumail {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middlethumail {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.containerthumail:hover .imagethumail {
-  opacity: 0.3;
-}
-
-.containerthumail:hover .middlethumail {
-  opacity: 1;
-}
-
-.textthumail {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-
-<h2>Opacity with Box</h2>
-<p>Hover over the image to see the effect.</p>
-
-<div class="containerthumail">
-  <img src="Thumail1.jpg" alt="Avatar" class="imagethumail" style="width:300px">
-  <div class="middlethumail">
-    <a href="#" style="text-decoration: none;">
-    <div class="textthumail"> Watch It</div>
-    </a>
-  </div>
-</div>
+  <!-- <input id="myInput"> -->
+  <p class="myInput">Deep World</p>
+<!-- The button used to copy the text -->
+<button onclick="myFunction()">Copy</button>
+<script>
   
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementsByClassName("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Your Code Successfully Copied");
+}
+</script>
 </body>
 </html>
