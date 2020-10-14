@@ -1,8 +1,10 @@
 body
 {
-    background-color:rgb(211, 241, 255);;
+    background-color:rgb(211, 241, 255);
+    /* padding: 10px; */
+
 }
-#myImgLogo {
+.myImgLogo {
     align-self: center;
     top:100%;
     border-radius: 5px;
@@ -95,7 +97,7 @@ body
     margin: auto;
     overflow: hidden;
     /* height: auto; */
-    background-color: #333;
+    background-color: rgb(39, 39, 39);
   }
   #main_lable_Electro-Enthu
   {

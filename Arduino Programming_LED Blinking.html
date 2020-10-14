@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arduino Programming LED Blinking</title>
     <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="youtube.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
 <body>
     <ul>
         <li style="float:right"><a href="index.html">Home</a></li>
-        <li style="float:right"><a href="contact.html" >Contact</a></li>
-        <li style="float:right"><a href="about.html">About</a></li>
+        <!-- <li style="float:right"><a href="contact.html" >Contact</a></li>
+        <li style="float:right"><a href="about.html">About</a></li> -->
         <li style="float:right"><a class="activemenu" href="youtube.html">Youtube</a></li>
         <li style="float:left"><a href="#">
           <img id="myImgLogo" style="height: 16px; width: 20px;" src="Logo.jpg" alt="Electro-Enthu"></a></li>
         <li style="float:left"><a href="index.html">Electro-Enthu</a></li>
     </ul>
-    <div class="centertext"><h2>Arduino Programming LED Blinking</h2></div>
+    <div class="centertext headingclass"><h2>Arduino Programming LED Blinking</h2></div>
     <!-- <img id="myImgLogo" src="a.jpe" alt="Snow" style="width:100%;max-width:300px"> -->
     <!-- The Modal -->
     <div id="myModal" class="modal">
@@ -26,30 +28,47 @@
     </div>
 <iframe width="1350px" height="750px" src="https://www.youtube.com/embed/ISePySwNL0Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="centertext">Arduino Programming LED Blinking</div>
+<div class="centertext"><h2>Arduino Programming LED Blinking</h2>   </div>
 <p>
-  Hello everyone hope you all will be well.In this video we learned how to program an Arduino And how to make the blink of LED. In the next video we will go a little bit to the advanced level. <br>
+  Hello everyone hope you all will be well.In this video we learned how to program an Arduino And how to make the blink of LED. In the next video we will go a little bit to the advanced level. <br><br>
 
-  Hopefully this video will be helpful for beginners like me 😃😄 <br>
+  Hopefully this video will be helpful for beginners like me 😃😄 <br><br>
   
-  #sikhteraho <br>
+  #sikhteraho <br><br>
   
-  I'M SO SORRY GUYS , in this video I have made a small mistake in editing. <br>
-  In the second section of video, 0.5 ms will come in place of 50 ms And in the third section, 0.1 ms will come in place of 10ms. <br>
+  I'M SO SORRY GUYS , in this video I have made a small mistake in editing. <br><br>
+  In the second section of video, 0.5 ms will come in place of 50 ms And in the third section, 0.1 ms will come in place of 10ms. <br><br>
   
-  again I'm so sorry 😔 <br>
-  The program is correct, only I have made a slight mistake in editing. <br>
+  again I'm so sorry 😔 <br><br>
+  The program is correct, only I have made a slight mistake in editing. <br><br>
   what is Arduino?
     👇 <br>
-   <a href="https://en.m.wikipedia.org/wiki/Arduino" style="text-decoration: none;">Click</a>
-  <br>
+   <a href="https://en.m.wikipedia.org/wiki/Arduino" style="text-decoration: none;" target="blank">Click</a>
+  <br><br>
   Arduino Software
  👇<br>
- <a href="https://www.arduino.cc" style="text-decoration: none;">Click</a>  
-  Blink Code
-  👇<br>
-  <a href="#">Code</a>
+ <a href="https://www.arduino.cc" style="text-decoration: none;" target="blank">Click</a>  <br><br>
+  <div class="centertext"><h2>Blink Code</h2></div>
+  <div class="bordercontainercode">
+int LED = 9;<br>
+void setup()<br>
+{<br>
+  pinMode(LED, OUTPUT);<br>
+}<br>
+void loop()<br>
+{<br> 
+  digitalWrite(LED, HIGH);<br>
+  delay(1000);<br>    
+  digitalWrite(LED, LOW);<br>
+  delay(1000);<br>    
+}
+</div>
 </p>
-
+<div class="centertext"><h2>Circuit Diagram</h2></div>
+<!-- <div class="centertext"> -->
+<div class="circuitdiagram">
+  <div class="zoom"><img src="images2-4.jpg" alt=""></div>  
+</div>
+<script src="basic.js"></script>
 </body>
 </html>
