@@ -2,6 +2,8 @@ body
 {
     background-color:rgb(211, 241, 255);
     /* padding: 10px; */
+    margin: auto;
+    padding: 0%;
 
 }
 .myImgLogo {
